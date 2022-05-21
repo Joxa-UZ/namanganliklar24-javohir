@@ -1,0 +1,369 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6F6;
+    padding-right: 35px;
+    padding-left: 70px;
+}
+
+.top-start {
+    display: flex;
+}
+
+.site-logo {
+    padding-top: 5px;
+}
+
+.header-top-money {
+    display: flex;
+}
+
+.currency {
+    list-style: none;
+    width: 69px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    padding: 5px;
+}
+
+.currency-icon {
+    font-size: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2959CE;
+}
+
+.top-finish {
+    display: flex;
+    justify-content: space-around;
+    width: 414px;
+    align-items: center;
+}
+
+.search-icon {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-search-text {
+    display: inline;
+    width: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8D8D8D;
+    padding-top: 0;
+}
+
+.top-search {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 275px;
+    margin-right: 25px;
+    padding-top: 5px;
+}
+
+.top-language {
+    background-color: #DCE6FF;
+    border-radius: 20px;
+    width: 100px;
+    height: 36px;
+    padding-top: 10px;
+    /* padding: 5px; */
+    padding-left: 10px;
+    margin-right: 25px;
+}
+
+.uz-language {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.ru-language {
+    color: #A6A6A6;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+.top-login {
+    
+    width: 49px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #7296EC;
+    border-radius: 10px;
+    padding: 13px 20px;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-item {
+    list-style: none;
+    
+}
+
+.navbar-item-link {
+    text-decoration: none;
+    width: 90px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #7F7F7F;
+    transition: 1s;
+}
+
+.navbar-item-link:hover {
+    color: #ff0000;
+}
+
+.navbar-item-link:active {
+    border-radius: 5px;
+    background-color: #00ffff;
+    padding: 5px;
+    color: #fff;
+}
+
+.ads-banner {
+    padding-left: 70px;
+}
+
+.intro-menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.intro-menu-item {
+    width: 393px;
+    list-style: none;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.intro-theme {
+    width: 358px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.intro-text {
+    width: 346px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A4B4C;
+    padding-left: 10px;
+}
+
+.intro-main-image {
+    padding-left: 15px;
+}
+
+.intro-menu-under {
+    display: flex;
+    align-items: center;
+}
+
+.intro-menu-under>p,
+time {
+    width: 160px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #5E5F61;
+    
+}
+
+.intro-menu-under>img,
+p,
+time {
+    padding-left: 15px;
+    
+}
+
+.site-article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD7BA;
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-left: 70px;
+}
+
+.site-article-text {
+    width: 404px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+
+.site-article-link {
+    width: 89px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #F78B3B;
+    border-radius: 10px;
+    padding: 13px 30px;
+    text-decoration: none;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+.news-main{
+    width: 83px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    display: block;
+    padding-left: 50px;
+    /* padding-top: 10px; */
+}
+
+.news-image {
+    margin: 10px;
+}
+
+.news-item-list {
+    display: flex;
+    align-items: center;
+    width: 797px;
+    background: #F6F6F6;
+    border-radius: 15px;
+    margin: 10px;
+}
+.news-theme{
+    
+    width: 535px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+.news-text{
+    width: 535px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A4B4C;
+    padding: 0;
+}
+
+.news-item-under{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.under-text ,time{
+    font-size: 12px;
+}
+.news-item-link{
+    width: 110px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #EAEAEA;
+    padding-top: 17px;
+    padding-left: 343px;
+    padding-bottom: 17px;
+    padding-right: 343px;
+    margin-left: 50px;
+}
+.news-time-div{
+height: 35px;
+font-weight: 400;
+font-size: 13px;
+color: #5E5F61;
+}
+.news-right{
+    width: 99px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.news-right-item{
+    width: 311px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    padding-left: 20px;
+}
+.news-right-text{
+    width: 410px;
+    height: 250px;
+    padding-right: 30px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+width: 1350px;
+height: 356px;
+    background-color: #7297EF;
+}
+.footer-logo{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.footer-logo-text{
+width: 229px;
+height: 95px;
+font-weight: 400;
+font-size: 12px;
+color: #FFFFFF;
+margin-left: 110px;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+.footer-list-item{
+    padding: 10px;
+    list-style: none;
+    width: 240px;
+height: 19px;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+}
+.footer-list-left{
+    width: 224px;
+}
